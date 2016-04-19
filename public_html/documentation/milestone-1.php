@@ -5,12 +5,14 @@
 		<meta name="author" content="Kai Garrott" />
 		<meta name="description" content="Milestone 1: Project Overview" />
 		<title>Overview</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 	<body>
 		<header>
 			<h1>Project Overview</h1>
 				<p>Personal Website Project</p>
 		</header>
+	<div class="container">
 		<h2>Purpose</h2>
 			<p>This site will serve as a digital business card, housing my personal portfolio of development projects, and presenting a clean, professional interface to attract potential clients.</p>
 		<h2>Audience</h2>
@@ -34,5 +36,6 @@
 				<p>Allison would like to narrow down her list of candidates to a shortlist of three by the end of the day, in order to present these options to the president of the dealership at 9:30 tomorrow morning. She has a window of two hours this afternoon in which to scan the websites of 30 different developers. Allison will therefore be spending, at most, four minutes viewing each website and portfolio.</p>
 		<h2>Use Case</h2>
 			<p>Allison has come up with a list of potential contractors based on a Google search for web developers in the area. It is 3 P.M. on a Thursday, and she needs to create a shortlist of candidates by 5:00 in order to leave work on time to pick up her three-year-old from daycare. Allison has had an exhausting, stressful week of organizing two different tradeshow presentations, negotiating advertising contracts, and now the pressing problem of the company's antiquated website. She has little energy and even less patience for any difficulty in viewing and navigating candidates' sites, and rather enjoys Ctrl-W'ing any that cause her frustration at this point. In order to catch her attention, a website needs to be visually striking and pleasing to use.</p>
+	</div>	
 	</body>
 </html>

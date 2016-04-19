@@ -1,0 +1,27 @@
+/*
+GLOBAL STYLES
+///////////////////*/
+
+body {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	font-family: Helvetica, sans-serif;
+	line-height: 130%;
+}
+
+.container {
+	background-color: #F5E9CA;
+	margin: 0 auto;
+	width: 850px;
+	padding: 40px;
+}
+
+/*
+HEADER STYLES
+///////////////////*/
+
+header {
+	background-color: #C9E8F2;
+	height: 70px;
+	padding: 20px;
+}
