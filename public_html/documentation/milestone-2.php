@@ -24,7 +24,7 @@
 			<h2>Wireframes</h2>
 			<p>As this site will only have three pages, direct links will be included to each without requiring a menu.</p>
 			<p>Content will ideally fit on a single screen. Vertical scrolling will not be required. Portfolio items will be selectable from left to right.</p><br>
-			<img src="media/wireframe.png" alt="site wireframe" />
+			<img id="wireframe" src="media/wireframe.png" alt="site wireframe" />
 
 		</div>
 	</body>
