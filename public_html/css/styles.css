@@ -5,22 +5,32 @@ footer, .sfooter-content {
 }
 
 .topnav {
-	border-radius: 3px;
-	background-color: #3cb371;
 	float: right;
-	/*width: 20rem;*/
+}
+
+.topnav > a {
+	border-radius: 3px;
+	background-color: rgba(60, 179, 113, 0.79);
 	height: 5rem;
-	margin: 2rem 1rem 0;
+	width: 95%;
+	margin: 5rem 1rem 0;
 }
 
 .topnav-l {
 	font-family: 'Fjord One', serif;
 	font-size: 3rem;
+	text-align: center;
+	padding: 2% 15%;
 	margin: 2.5rem 3rem;
+	border: 2px solid lightslategray;
+	border-radius: 3px;
+
 }
 
 footer {
 	background-color: #f5f5dc;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
 }
 
 .bottomnav {

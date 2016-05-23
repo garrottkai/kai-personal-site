@@ -47,13 +47,13 @@
 		<div class="sfooter-content">
 				<header>
 					<div class="row">
-						<div>
-							<div>
+						<div class="navbar">
+							<div class="navbar-inner">
 								<ul class="nav">
 									<li class="col-xs-3 topnav-l" ><p>Kai Garrott</p></li>
-									<li class="col-xs-2 active topnav"><a href="#"></a></li>
-									<li class="col-xs-2 active topnav"><a href="#"></a></li>
-									<li class="col-xs-2 active topnav"><a href="#"></a></li>
+									<li class="col-xs-2 active topnav"><a href="#">Portfolio</a></li>
+									<li class="col-xs-2 active topnav"><a href="#"></a>About</li>
+									<li class="col-xs-2 active topnav"><a href="#"></a>Contact</li>
 								</ul>
 							</div>
 						</div>
