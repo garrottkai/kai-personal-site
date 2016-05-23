@@ -14,6 +14,10 @@
 
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
 
+		<!-- Google fonts ---------------------->
+
+		<link href='https://fonts.googleapis.com/css?family=Fjord+One' rel='stylesheet' type='text/css'>
+
 		<!-- local css ------------------------>
 
 		<link rel="stylesheet" href="css/styles.css" type="text/css" />
@@ -43,19 +47,28 @@
 		<header>
 			<div class="row">
 				<div class="col-xs-12">
-					<ul class="nav nav-pills">
+					<div class="topnav-l">
+						<p>Kai Garrott</p>
+					</div>
+					<div>
+					<ul class="nav">
 						<li class="active topnav"><a href="#"></a></li>
 						<li class="active topnav"><a href="#"></a></li>
 						<li class="active topnav"><a href="#"></a></li>
 					</ul>
+					</div>
 				</div>
 			</div>
 		</header>
 		</div> <!-- sfooter-content -->
 		<footer>
-			<p class="footer-l">Kai Garrott</p>
-			<p class="footer-c">Contact info here</p>
-			<p class="footer-r">Social media buttons</p>
+			<div class="row">
+				<ul class="nav bottomnav">
+					<li class="col-xs-4 footer-l">Kai Garrott</li>
+					<li class="col-xs-4 footer-c">Contact info here</li>
+					<li class="col-xs-4 footer-r">Social media buttons</li>
+				</ul>
+			</div>
 		</footer>
 	</body>
 </html>
