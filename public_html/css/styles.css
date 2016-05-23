@@ -1,5 +1,13 @@
 /* GLOBAL STYLES ------------------------------- */
 
+.nav-pills .topnav {
+	float: right;
+	width: 20rem;
+	background-color: #3cb371;
+	margin: 2rem;
+	border-radius: 3px;
+}
+
 /* MAIN PAGE LAYOUT STYLES --------------------- */
 
 /* SUBPAGE LAYOUT STYLES ----------------------- */

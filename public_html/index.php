@@ -44,9 +44,9 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<ul class="nav nav-pills">
-						<li class="active"><a href="#"></a></li>
-						<li class="active"><a href="#"></a></li>
-						<li class="active"><a href="#"></a></li>
+						<li class="active topnav"><a href="#"></a></li>
+						<li class="active topnav"><a href="#"></a></li>
+						<li class="active topnav"><a href="#"></a></li>
 					</ul>
 				</div>
 			</div>
