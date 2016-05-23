@@ -2,10 +2,38 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="author" content="Kai Garrott" />
-		<link rel="stylesheet" href="css/styles.css" type="text/css" />
 		<title>Kai Garrott, Developer</title>
+
+		<!-- bootstrap compiled/minified css -->
+
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+
+		<!-- local css ------------------------>
+
+		<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+		<!-- HTML5 shiv and respond.js for legacy IE support -->
+
+		<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- jQuery for components -------------->
+
+		<script
+			src="http://code.jquery.com/jquery-2.0.0.min.js"
+			integrity="sha256-1IKHGl6UjLSIT6CXLqmKgavKBXtr0/jJlaGMEkh+dhw="
+			crossorigin="anonymous"></script>
+
+		<!-- bootstrap js ----------------------->
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 	</head>
+	
 	<body class="sfooter">
 		<div class="sfooter-content">
 			<div>
