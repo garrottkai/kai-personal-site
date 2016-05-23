@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="author" content="Kai Garrott" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Kai Garrott, Developer</title>
 
 		<!-- bootstrap compiled/minified css -->
@@ -44,31 +45,32 @@
 
 	<body class="sfooter">
 		<div class="sfooter-content">
-		<header>
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="topnav-l">
-						<p>Kai Garrott</p>
-					</div>
-					<div>
-					<ul class="nav">
-						<li class="active topnav"><a href="#"></a></li>
-						<li class="active topnav"><a href="#"></a></li>
-						<li class="active topnav"><a href="#"></a></li>
-					</ul>
-					</div>
-				</div>
-			</div>
-		</header>
-		</div> <!-- sfooter-content -->
-		<footer>
-			<div class="row">
-				<ul class="nav bottomnav">
-					<li class="col-xs-4 footer-l">Kai Garrott</li>
-					<li class="col-xs-4 footer-c">Contact info here</li>
-					<li class="col-xs-4 footer-r">Social media buttons</li>
-				</ul>
-			</div>
-		</footer>
+				<header>
+					<div class="row">
+						<div>
+							<div>
+								<ul class="nav">
+									<li class="col-xs-3 topnav-l" ><p>Kai Garrott</p></li>
+									<li class="col-xs-2 active topnav"><a href="#"></a></li>
+									<li class="col-xs-2 active topnav"><a href="#"></a></li>
+									<li class="col-xs-2 active topnav"><a href="#"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div> <!-- /row -->
+				</header>
+				<section>
+
+				</section>
+		</div> <!-- /sfooter-content -->
+					<footer>
+						<div class="row">
+							<ul class="nav bottomnav">
+								<li class="col-xs-4 footer-l">Kai Garrott</li>
+								<li class="col-xs-4 footer-c">Contact info here</li>
+								<li class="col-xs-4 footer-r">Social media buttons</li>
+							</ul>
+						</div>
+					</footer>
 	</body>
 </html>

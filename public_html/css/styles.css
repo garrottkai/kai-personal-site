@@ -1,18 +1,26 @@
 /* GLOBAL STYLES ------------------------------- */
+footer, .sfooter-content {
+	width: 70%;
+	margin: 0 auto;
+}
 
 .topnav {
 	border-radius: 3px;
 	background-color: #3cb371;
 	float: right;
-	width: 20rem;
-	height: 6rem;
-	margin: 0 2rem;
+	/*width: 20rem;*/
+	height: 5rem;
+	margin: 2rem 1rem 0;
 }
 
 .topnav-l {
 	font-family: 'Fjord One', serif;
 	font-size: 3rem;
-	margin: 3rem;
+	margin: 2.5rem 3rem;
+}
+
+footer {
+	background-color: #f5f5dc;
 }
 
 .bottomnav {
