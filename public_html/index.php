@@ -18,6 +18,7 @@
 		<!-- Google fonts ---------------------->
 
 		<link href='https://fonts.googleapis.com/css?family=Fjord+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 
 		<!-- local css ------------------------>
 
@@ -33,7 +34,7 @@
 		<!-- jQuery for components -------------->
 
 		<script
-			src="http://code.jquery.com/jquery-2.0.0.min.js"
+			src="https://code.jquery.com/jquery-2.0.0.min.js"
 			integrity="sha256-1IKHGl6UjLSIT6CXLqmKgavKBXtr0/jJlaGMEkh+dhw="
 			crossorigin="anonymous"></script>
 
@@ -46,19 +47,30 @@
 	<body class="sfooter">
 		<div class="sfooter-content">
 				<header>
+
 					<div class="row">
 						<div class="navbar">
 							<div class="navbar-inner">
-								<ul class="nav">
-									<li class="col-xs-3 topnav-l" ><p>Kai Garrott</p></li>
-									<li class="col-xs-2 active topnav"><a href="#">Portfolio</a></li>
-									<li class="col-xs-2 active topnav"><a href="#"></a>About</li>
-									<li class="col-xs-2 active topnav"><a href="#"></a>Contact</li>
-								</ul>
+								<div class="nav">
+									<p class="col-xs-3 topnav-l" >Kai Garrott</p>
+									<ul class="nav">
+										<li class="col-xs-2 active topnav"><a href="#">Contact</a></li>
+										<li class="col-xs-2 active topnav"><a href="#">About</a></li>
+										<li class="col-xs-2 active topnav"><a href="#">Portfolio</a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div> <!-- /row -->
 				</header>
+					<div class="row mcontent">
+						<div class="col-xs-12 well">
+							<h2>Creating eye-catching websites</h2>
+							<br>
+							<p>Your online image creates customers' first impressions of your brand.</p>
+							<p>Trust your company's image to a full-stack professional.</p>
+						</div>
+					</div> <!-- /row -->
 				<section>
 
 				</section>
