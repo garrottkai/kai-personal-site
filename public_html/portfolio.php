@@ -46,15 +46,16 @@
 	<body class="sfooter">
 		<div class="sfooter-content">
 			<header>
+
 				<div class="row">
 					<div class="navbar">
 						<div class="navbar-inner">
 							<div class="nav">
-								<a href="index.php"><div class="col-xs-3 topnav-l" >Kai Garrott</div></a>
+								<a href="index.php"><div class="col-xs-12 col-md-4 topnav-l" >Kai Garrott</div></a>
 								<ul class="nav">
-									<li class="col-xs-2 active topnav"><a href="contact.php">Contact</a></li>
-									<li class="col-xs-2 active topnav"><a href="about.php">About</a></li>
-									<li class="col-xs-2 active topnav"><a href="portfolio.php">Portfolio</a></li>
+									<li class="col-xs-12 col-md-2 active topnav"><a href="contact.php">//  Contact</a></li>
+									<li class="col-xs-12 col-md-2 active topnav"><a href="about.php">//  About</a></li>
+									<li class="col-xs-12 col-md-2 active topnav"><a href="portfolio.php">//  Portfolio</a></li>
 								</ul>
 							</div>
 						</div>
@@ -62,14 +63,12 @@
 				</div> <!-- /row -->
 			</header>
 		</div> <!-- /sfooter-content -->
-		<footer>
-			<div class="row">
-				<ul class="nav bottomnav">
-					<li class="col-xs-4 footer-l">Kai Garrott</li>
-					<li class="col-xs-4 footer-c">Contact info here</li>
-					<li class="col-xs-2 footer-r">Social media buttons</li>
-				</ul>
-			</div>
+		<footer class="navbar navbar-fixed-bottom">
+			<ul class="nav navbar-nav">
+				<li class="nav-item footer-l navbar-text">Kai Garrott</li>
+				<li class="nav-item footer-c navbar-text">Contact info here</li>
+			</ul>
+			<div class="col-xs-2 footer-i navbar-text"><a href="https://github.com/garrottkai"><img src="media/gh-light-64px.png"></a></div>
 		</footer>
 	</body>
 </html>

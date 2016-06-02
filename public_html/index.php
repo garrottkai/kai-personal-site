@@ -52,11 +52,11 @@
 						<div class="navbar">
 							<div class="navbar-inner">
 								<div class="nav">
-									<a href="index.php"><div class="col-xs-3 topnav-l" >Kai Garrott</div></a>
+									<a href="index.php"><div class="col-xs-12 col-md-4 topnav-l" >Kai Garrott</div></a>
 									<ul class="nav">
-										<li class="col-xs-2 active topnav"><a href="contact.php">Contact</a></li>
-										<li class="col-xs-2 active topnav"><a href="about.php">About</a></li>
-										<li class="col-xs-2 active topnav"><a href="portfolio.php">Portfolio</a></li>
+										<li class="col-xs-12 col-md-2 active topnav"><a href="contact.php">//  Contact</a></li>
+										<li class="col-xs-12 col-md-2 active topnav"><a href="about.php">//  About</a></li>
+										<li class="col-xs-12 col-md-2 active topnav"><a href="portfolio.php">//  Portfolio</a></li>
 									</ul>
 								</div>
 							</div>
@@ -71,27 +71,25 @@
 							<p>Trust your company's image to a full-stack professional.</p>
 						</div>
 					</div> <!-- /row -->
-					<div class="row mcontent subcontent">
-						<div class="col-md-5 well">
-							<h3>Design.</h3>
-							<p>Shameless ad copy here</p>
-						</div>
-						<div class="col-md-5 well">
-							<h3>Integration.</h3>
-							<p>More self promotion, feat. buzzwords & flowery adjectives</p>
-						</div>
+			<div class="row subcontent text-center">
+
+							<div class="col-md-5 well">
+								<h3>Design.</h3>
+								<p>Shameless ad copy here</p>
+							</div>
+							<div class="col-md-2"></div> <!-- empty space for alignment -->
+							<div class="col-md-5 well">
+								<h3>Integration.</h3>
+								<p>More self promotion, feat. buzzwords & flowery adjectives</p>
+							</div>
 					</div> <!-- /row -->
 		</div> <!-- /sfooter-content -->
-					<footer>
-						<div class="row">
-							<div class="navbar">
+					<footer class="navbar navbar-fixed-bottom">
 							<ul class="nav navbar-nav">
-								<li class="col-xs-4 nav-item footer-l navbar-text">Kai Garrott</li>
-								<li class="col-xs-4 footer-c navbar-text">Contact info here</li>
+								<li class="nav-item footer-l navbar-text">Kai Garrott</li>
+								<li class="nav-item footer-c navbar-text">Contact info here</li>
 							</ul>
 							<div class="col-xs-2 footer-i navbar-text"><a href="https://github.com/garrottkai"><img src="media/gh-light-64px.png"></a></div>
-							</div>
-						</div>
 					</footer>
 	</body>
 </html>
