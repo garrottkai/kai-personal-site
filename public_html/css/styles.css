@@ -1,61 +1,76 @@
 /* GLOBAL STYLES ------------------------------- */
 footer, .sfooter-content {
-	width: 70%;
-	margin: 0 auto;
+width: 70%;
+margin: 0 auto;
+}
+
+.topnav-l:link :visited :active {
+	color: black;
 }
 
 .topnav {
-	float: right;
-	text-align: center;
+float: right;
+text-align: center;
 }
 
 .topnav > a {
-	border-radius: 2px;
-	background-color: #96C8A2;
-	color: white;
-	height: 5rem;
-	width: 95%;
-	margin: 5rem 1rem 0;
-	vertical-align: middle;
+border-radius: 2px;
+background-color: #96C8A2;
+color: white;
+height: 5rem;
+width: 95%;
+margin: 5rem 1rem 0;
+vertical-align: middle;
 }
 
 .topnav-l {
-	font-family: 'Fjord One', serif;
-	font-size: 3.5rem;
-	text-align: center;
-	padding: 2% 5%;
-	margin: 2.5rem 3rem;
-	width: 30%;
-	border: 2px solid lightslategray;
-	border-radius: 3px;
+font-family: 'Fjord One', serif;
+font-size: 3.5rem;
+text-align: center;
+padding: 2% 5%;
+margin: 2.5rem 3rem;
+width: 30%;
+border: 2px solid lightslategray;
+border-radius: 3px;
 
 }
 
 .well {
-	background-color: honeydew;
-	border-radius: 2px;
+background-color: honeydew;
+border-radius: 2px;
 }
 
 .mcontent {
-	font-family: 'Fjord One', serif;
-	font-size: 2rem;
-	text-align: center;
+font-family: 'Fjord One', serif;
+font-size: 2rem;
+text-align: center;
 }
 
 .mcontent > .well > h2 {
-	font-size: 1.5em;
+font-size: 1.5em;
 }
 
 .mcontent > .well > p {
-	font-family: 'Oxygen', sans-serif;
-	font-size: 1.75rem;
+font-family: 'Oxygen', sans-serif;
+font-size: 1.75rem;
 }
 
 footer {
-	background-color: #93AAAB;
+background-color: #93AAAB;
+font-family: 'Oxygen', sans-serif;
 	color: floralwhite;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+}
+
+.footer-l, .footer-c {
+	position: relative;
+	top: 50%;
+	transform: translateY(10%);
+}
+
+.footer-i > a > img {
+	width: 2.5rem;
 }
 
 .bottomnav {

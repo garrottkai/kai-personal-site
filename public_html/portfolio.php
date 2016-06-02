@@ -50,7 +50,7 @@
 					<div class="navbar">
 						<div class="navbar-inner">
 							<div class="nav">
-								<p class="col-xs-3 topnav-l" >Kai Garrott</p>
+								<a href="index.php"><div class="col-xs-3 topnav-l" >Kai Garrott</div></a>
 								<ul class="nav">
 									<li class="col-xs-2 active topnav"><a href="contact.php">Contact</a></li>
 									<li class="col-xs-2 active topnav"><a href="about.php">About</a></li>

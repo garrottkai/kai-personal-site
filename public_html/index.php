@@ -52,7 +52,7 @@
 						<div class="navbar">
 							<div class="navbar-inner">
 								<div class="nav">
-									<p class="col-xs-3 topnav-l" >Kai Garrott</p>
+									<a href="index.php"><div class="col-xs-3 topnav-l" >Kai Garrott</div></a>
 									<ul class="nav">
 										<li class="col-xs-2 active topnav"><a href="contact.php">Contact</a></li>
 										<li class="col-xs-2 active topnav"><a href="about.php">About</a></li>
@@ -80,7 +80,7 @@
 							<ul class="nav bottomnav">
 								<li class="col-xs-4 footer-l">Kai Garrott</li>
 								<li class="col-xs-4 footer-c">Contact info here</li>
-								<li class="col-xs-4 footer-r">Social media buttons</li>
+								<li class="footer-r footer-i"><a href="https://github.com/garrottkai"><img src="media/gh-light-64px.png"></a></li>
 							</ul>
 						</div>
 					</footer>
