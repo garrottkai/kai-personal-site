@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="author" content="Kai Garrott" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Kai Garrott, Developer</title>
+		<title>Contact | Kai Garrott</title>
 
 		<!-- bootstrap compiled/minified css -->
 
@@ -43,46 +43,33 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 	</head>
-
 	<body class="sfooter">
 		<div class="sfooter-content">
-				<header>
-
-					<div class="row">
-						<div class="navbar">
-							<div class="navbar-inner">
-								<div class="nav">
-									<p class="col-xs-3 topnav-l" >Kai Garrott</p>
-									<ul class="nav">
-										<li class="col-xs-2 active topnav"><a href="contact.php">Contact</a></li>
-										<li class="col-xs-2 active topnav"><a href="about.php">About</a></li>
-										<li class="col-xs-2 active topnav"><a href="portfolio.php">Portfolio</a></li>
-									</ul>
-								</div>
+			<header>
+				<div class="row">
+					<div class="navbar">
+						<div class="navbar-inner">
+							<div class="nav">
+								<p class="col-xs-3 topnav-l" >Kai Garrott</p>
+								<ul class="nav">
+									<li class="col-xs-2 active topnav"><a href="contact.php">Contact</a></li>
+									<li class="col-xs-2 active topnav"><a href="about.php">About</a></li>
+									<li class="col-xs-2 active topnav"><a href="portfolio.php">Portfolio</a></li>
+								</ul>
 							</div>
 						</div>
-					</div> <!-- /row -->
-				</header>
-					<div class="row mcontent">
-						<div class="col-xs-12 well">
-							<h2>Creating eye-catching websites</h2>
-							<br>
-							<p>Your online presence will form clients' first impressions of your brand.</p>
-							<p>Trust your company's image to a full-stack professional.</p>
-						</div>
-					</div> <!-- /row -->
-				<section>
-
-				</section>
+					</div>
+				</div> <!-- /row -->
+			</header>
 		</div> <!-- /sfooter-content -->
-					<footer>
-						<div class="row">
-							<ul class="nav bottomnav">
-								<li class="col-xs-4 footer-l">Kai Garrott</li>
-								<li class="col-xs-4 footer-c">Contact info here</li>
-								<li class="col-xs-4 footer-r">Social media buttons</li>
-							</ul>
-						</div>
-					</footer>
+		<footer>
+			<div class="row">
+				<ul class="nav bottomnav">
+					<li class="col-xs-4 footer-l">Kai Garrott</li>
+					<li class="col-xs-4 footer-c">Contact info here</li>
+					<li class="col-xs-4 footer-r">Social media buttons</li>
+				</ul>
+			</div>
+		</footer>
 	</body>
 </html>

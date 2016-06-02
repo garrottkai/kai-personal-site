@@ -11,8 +11,8 @@ footer, .sfooter-content {
 
 .topnav > a {
 	border-radius: 2px;
-	background-color: rgba(60, 179, 113, 0.79);
-	color: whitesmoke;
+	background-color: #96C8A2;
+	color: white;
 	height: 5rem;
 	width: 95%;
 	margin: 5rem 1rem 0;
@@ -52,7 +52,8 @@ footer, .sfooter-content {
 }
 
 footer {
-	background-color: #f5f5dc;
+	background-color: #93AAAB;
+	color: floralwhite;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 }
