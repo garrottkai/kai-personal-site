@@ -46,6 +46,18 @@ font-size: 2rem;
 text-align: center;
 }
 
+.subcontent {
+	margin: auto;
+}
+
+.subcontent > .well {
+	margin: 2rem;
+}
+
+.mcontent > .well {
+	min-height: 30rem;
+}
+
 .mcontent > .well > h2 {
 font-size: 1.5em;
 }

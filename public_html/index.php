@@ -71,9 +71,16 @@
 							<p>Trust your company's image to a full-stack professional.</p>
 						</div>
 					</div> <!-- /row -->
-				<section>
-
-				</section>
+					<div class="row mcontent subcontent">
+						<div class="col-md-5 well">
+							<h3>Design.</h3>
+							<p>Shameless ad copy here</p>
+						</div>
+						<div class="col-md-5 well">
+							<h3>Integration.</h3>
+							<p>More self promotion, feat. buzzwords & flowery adjectives</p>
+						</div>
+					</div> <!-- /row -->
 		</div> <!-- /sfooter-content -->
 					<footer>
 						<div class="row">
