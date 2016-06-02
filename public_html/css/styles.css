@@ -4,7 +4,7 @@ width: 70%;
 margin: 0 auto;
 }
 
-.topnav-l:link :visited :active {
+.topnav-l:link, :visited {
 	color: black;
 }
 
@@ -63,10 +63,16 @@ font-family: 'Oxygen', sans-serif;
 	border-top-right-radius: 3px;
 }
 
-.footer-l, .footer-c {
+/*.footer-l, .footer-c {
 	position: relative;
 	top: 50%;
 	transform: translateY(10%);
+}*/
+
+.footer-i {
+	float: right;
+	/*transform: translateY(-100%);
+	padding-right: 5rem;*/
 }
 
 .footer-i > a > img {
@@ -74,7 +80,7 @@ font-family: 'Oxygen', sans-serif;
 }
 
 .bottomnav {
-	padding: 2rem;
+	/*padding: 2rem;*/
 	text-align: center;
 }
 

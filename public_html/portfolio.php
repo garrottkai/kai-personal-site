@@ -67,7 +67,7 @@
 				<ul class="nav bottomnav">
 					<li class="col-xs-4 footer-l">Kai Garrott</li>
 					<li class="col-xs-4 footer-c">Contact info here</li>
-					<li class="col-xs-4 footer-r">Social media buttons</li>
+					<li class="col-xs-2 footer-r">Social media buttons</li>
 				</ul>
 			</div>
 		</footer>

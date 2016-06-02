@@ -77,11 +77,13 @@
 		</div> <!-- /sfooter-content -->
 					<footer>
 						<div class="row">
-							<ul class="nav bottomnav">
-								<li class="col-xs-4 footer-l">Kai Garrott</li>
-								<li class="col-xs-4 footer-c">Contact info here</li>
-								<li class="footer-r footer-i"><a href="https://github.com/garrottkai"><img src="media/gh-light-64px.png"></a></li>
+							<div class="navbar">
+							<ul class="nav navbar-nav">
+								<li class="col-xs-4 nav-item footer-l navbar-text">Kai Garrott</li>
+								<li class="col-xs-4 footer-c navbar-text">Contact info here</li>
 							</ul>
+							<div class="col-xs-2 footer-i navbar-text"><a href="https://github.com/garrottkai"><img src="media/gh-light-64px.png"></a></div>
+							</div>
 						</div>
 					</footer>
 	</body>
