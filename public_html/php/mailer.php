@@ -3,11 +3,13 @@
  * require all composer dependencies; requiring the autoload file loads all composer packages at once
  **/
 require_once((dirname(__DIR__, 2)) . "/vendor/autoload.php");
+require_once("rc-key.php");
+
 
 // your reCAPTCHA keys here
 $siteKey = '6LdOqCETAAAAABB-pUlY6mNg14XxKD0qOukq-AfT'
 ;
-$secret = 'YOUR RECAPTCHA SECRET KEY HERE';
+$secret = $this->getSecretKey();
 
 // verify user's reCAPTCHA input
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
