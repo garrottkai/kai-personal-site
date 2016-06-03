@@ -38,6 +38,20 @@
 			integrity="sha256-1IKHGl6UjLSIT6CXLqmKgavKBXtr0/jJlaGMEkh+dhw="
 			crossorigin="anonymous"></script>
 
+		<!-- jQuery Form, Additional Methods, Validate -->
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+
+		<!-- JavaScript Form Validator -->
+
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		
 		<!-- bootstrap js ----------------------->
 
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -60,14 +74,15 @@
 						</div>
 					</div>
 				</div> <!-- /row -->
+				<hr class="topnavline">
 			</header>
 		</div> <!-- /sfooter-content -->
 		<footer class="navbar navbar-fixed-bottom">
+			<hr class="navline">
 			<ul class="nav navbar-nav">
-				<li class="nav-item footer-l navbar-text">Kai Garrott</li>
-				<li class="nav-item footer-c navbar-text">Contact info here</li>
+				<li class="nav-item footer-l navbar-text">&copy 2016 Kai Garrott</li>
 			</ul>
-			<div class="col-xs-2 footer-i navbar-text"><a href="https://github.com/garrottkai"><img src="media/gh-light-64px.png"></a></div>
+			<div class="footer-i navbar-text"><a href="https://github.com/garrottkai"><img src="media/gh-light-64px.png"></a></div>
 		</footer>
 	</body>
 </html>

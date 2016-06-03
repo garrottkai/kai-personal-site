@@ -60,6 +60,7 @@
 						</div>
 					</div>
 				</div> <!-- /row -->
+				<hr class="topnavline">
 			</header>
 			<div class="row mcontent">
 				<div class="col-xs-12 sec">
@@ -70,11 +71,11 @@
 			</div> <!-- /row -->
 		</div> <!-- /sfooter-content -->
 		<footer class="navbar navbar-fixed-bottom">
+			<hr class="navline">
 			<ul class="nav navbar-nav">
-				<li class="nav-item footer-l navbar-text">Kai Garrott</li>
-				<li class="nav-item footer-c navbar-text">Contact info here</li>
+				<li class="nav-item footer-l navbar-text">&copy 2016 Kai Garrott</li>
 			</ul>
-			<div class="col-xs-2 footer-i navbar-text"><a href="https://github.com/garrottkai"><img src="media/gh-light-64px.png"></a></div>
+			<div class="footer-i navbar-text"><a href="https://github.com/garrottkai"><img src="media/gh-light-64px.png"></a></div>
 		</footer>
 	</body>
 </html>
