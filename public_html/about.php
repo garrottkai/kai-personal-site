@@ -61,6 +61,13 @@
 					</div>
 				</div> <!-- /row -->
 			</header>
+			<div class="row mcontent">
+				<div class="col-xs-12 sec">
+					<h2>Lemme talk about myself</h2>
+					<br>
+					<p>This is a paragraph about me. I haz skillz. Pls hire me, mkay?</p>
+				</div>
+			</div> <!-- /row -->
 		</div> <!-- /sfooter-content -->
 		<footer class="navbar navbar-fixed-bottom">
 			<ul class="nav navbar-nav">

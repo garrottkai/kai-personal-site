@@ -1,4 +1,14 @@
 /* GLOBAL STYLES ------------------------------- */
+
+body {
+	background: url(../media/background.jpg);
+	background-size: cover;
+}
+
+body:after {
+	 background-image: linear-gradient(white, gray);
+ }
+
 footer, .sfooter-content {
 width: 70%;
 margin: 0 auto;
@@ -8,6 +18,10 @@ margin: 0 auto;
 	color: black;
 }
 
+.topnav-l:hover {
+	color: gray;
+}
+
 .topnav {
 float: right;
 text-align: center;
@@ -15,7 +29,7 @@ text-align: center;
 
 .topnav > a {
 border-radius: 2px;
-background-color: #ffffff;
+background-color: transparent;
 font-family: 'Oxygen', sans-serif;
 color: black;
 height: 5rem;
@@ -24,20 +38,31 @@ margin: 5rem 1rem 0;
 
 }
 
+.topnav > a:hover {
+	color: gray;
+	background-color: transparent;
+}
+
+.active > a:hover {
+	background-color: #ffffff;
+}
+
 .topnav-l {
 font-family: 'Fjord One', serif;
 font-size: 3.5rem;
 text-align: center;
 padding: 2% 5%;
 margin: 2rem auto 0;
-/*border: 2px solid lightslategray;*/
-border-radius: 3px;
 
 }
 
-.well {
-background-color: #ffffff;
-border-radius: 2px;
+/*header > .row > .navbar {
+	margin-bottom: 0;
+}*/
+
+.topnavline {
+	margin: 0 0 2rem 0;
+	width: inherit;
 }
 
 .mcontent {
@@ -50,25 +75,26 @@ text-align: center;
 	margin: auto;
 }*/
 
-.subcontent > .well {
+.subcontent > .sec {
 	font-family: 'Oxygen', sans-serif;
-	margin: 2rem;
+	color: #FFFFFF;
+	margin: 2rem 0;
 	min-height: 15rem;
 }
-.subcontent > .well > h3 {
+.subcontent > .sec > h3 {
 	font-family: 'Fjord One', serif;
 }
 
 
-.mcontent > .well {
+.mcontent > .sec {
 	min-height: 30rem;
 }
 
-.mcontent > .well > h2 {
+.mcontent > .sec > h2 {
 font-size: 1.5em;
 }
 
-.mcontent > .well > p {
+.mcontent > .sec > p {
 font-family: 'Oxygen', sans-serif;
 font-size: 1.75rem;
 }
@@ -79,13 +105,18 @@ font-size: 1.75rem;
 }
 
 footer {
-background-color: #ffffff;
+background-color: transparent;
 font-family: 'Oxygen', sans-serif;
-color: black;
+color: #ffffff;
 border-top-left-radius: 3px;
 border-top-right-radius: 3px;
 width: 90%;
-max-height: 5rem;
+max-height: 6rem;
+}
+
+.navline {
+	margin: 1rem 0 0 0;
+	width: inherit;
 }
 
 /*.footer-l, .footer-c {
@@ -95,12 +126,13 @@ max-height: 5rem;
 }*/
 
 .footer-i {
-	float: right;
 	padding-right: 5rem;
+	margin-bottom: 1rem;
 }
 
 .footer-i > a > img {
 	width: 2.5rem;
+	padding-bottom: 1rem;
 }
 
 .bottomnav {
