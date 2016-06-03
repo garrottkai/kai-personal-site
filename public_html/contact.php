@@ -80,6 +80,7 @@
 				<div>
 					<!--Begin Contact Form-->
 					<form id="contact-form" action="php/mailer.php" method="post">
+						<h3>Contact</h3>
 						<div class="form-group">
 							<label for="name">Name <span class="text-danger">*</span></label>
 							<div class="input-group">

@@ -99,6 +99,19 @@ font-family: 'Oxygen', sans-serif;
 font-size: 1.75rem;
 }
 
+label {
+	font-family: 'Fjord One', serif;
+}
+
+form > h3 {
+	font-family: 'Fjord One', serif;
+}
+
+.form-group {
+	width: 80%;
+	align-content: center;
+}
+
 .navbar-fixed-bottom {
 	margin-top: 2rem;
 	border: 2px lightslategray;
