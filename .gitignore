@@ -1,4 +1,4 @@
 .DS_Store
 .idea
 /vendor
-rc-key.php
+**/php/rc-key.php

@@ -3,6 +3,9 @@
 body {
 	background: url(../media/background.jpg);
 	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
 }
 
 body:after {
@@ -110,6 +113,10 @@ form > h3 {
 .form-group {
 	width: 80%;
 	align-content: center;
+}
+
+form {
+	margin-bottom: 5rem;
 }
 
 .navbar-fixed-bottom {

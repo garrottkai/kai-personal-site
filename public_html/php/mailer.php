@@ -6,13 +6,8 @@ require_once((dirname(__DIR__, 2)) . "/vendor/autoload.php");
 require_once("rc-key.php");
 
 
-// your reCAPTCHA keys here
-$siteKey = '6LdOqCETAAAAABB-pUlY6mNg14XxKD0qOukq-AfT'
-;
-$secret = $this->getSecretKey();
-
 // verify user's reCAPTCHA input
-$recaptcha = new \ReCaptcha\ReCaptcha($secret);
+$recaptcha = new \ReCaptcha\ReCaptcha($secretKey);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 
 try {
@@ -41,7 +36,7 @@ try {
 	 * notice this an array that can include or omit the the recipient's real name
 	 * use the recipients' real name where possible; this reduces the probability of the Email being marked as spam
 	 **/
-	$recipients = ["garrottkai@gmail.com" => "Kai Garrott"];
+	$recipients = $MAIL_RECIPIENTS;
 	$swiftMessage->setTo($recipients);
 
 	// attach the subject line to the message
@@ -65,7 +60,7 @@ try {
 	 **/
 	$smtp = Swift_SmtpTransport::newInstance("localhost", 25);
 	$mailer = Swift_Mailer::newInstance($smtp);
-	$numSent = $mailer->send($swiftMessage, $failedRecipients);
+	$numSent = $mailer->send($swiftMessage, $this->failedRecipients);
 
 	/**
 	 * the send method returns the number of recipients that accepted the Email
@@ -77,8 +72,8 @@ try {
 	}
 
 	// report a successful send
-	echo "&lt;div class=\"alert alert-success\" role=\"alert\"&gt;Email successfully sent.&lt;/div&gt;";
+	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 
 } catch(Exception $exception) {
-	echo "&lt;div class=\"alert alert-danger\" role=\"alert\"&gt;&lt;strong&gt;Oh snap!&lt;/strong&gt; Unable to send email: " . $exception->getMessage() . "&lt;/div&gt;";
+	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
 }
