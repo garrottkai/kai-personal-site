@@ -102,6 +102,19 @@ font-family: 'Oxygen', sans-serif;
 font-size: 1.75rem;
 }
 
+.carousel {
+	margin: auto;
+}
+
+.carousel-inner {
+	height: 40rem;
+	width: 80%;
+}
+
+.carousel-inner > .item > img {
+	height: 40rem;
+}
+
 .alert {
 	width: 80%;
 	margin-bottom: 5rem;

@@ -63,6 +63,50 @@
 				</div> <!-- /row -->
 				<hr class="topnavline">
 			</header>
+			<div>
+				<div class="row">
+					<div class="col-xs-12">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img class="img-c" src="../public_html/media/earth.png" alt="earth">
+						</div>
+
+						<div class="item">
+							<img class="img-c" src="../public_html/media/jupiter.png" alt="jupiter">
+						</div>
+
+						<div class="item">
+							<img class="img-c" src="../public_html/media/venus.png" alt="venus">
+						</div>
+
+						<div class="item">
+							<img class="img-c" src="../public_html/media/neptune.png" alt="neptune">
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+						</div>
+			</div>
+				</div>
 		</div> <!-- /sfooter-content -->
 		<footer class="navbar navbar-fixed-bottom">
 			<hr class="navline">
