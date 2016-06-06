@@ -60,7 +60,7 @@ try {
 	 **/
 	$smtp = Swift_SmtpTransport::newInstance("localhost", 25);
 	$mailer = Swift_Mailer::newInstance($smtp);
-	$numSent = $mailer->send($swiftMessage, $this->failedRecipients);
+	$numSent = $mailer->send($swiftMessage, $failedRecipients);
 
 	/**
 	 * the send method returns the number of recipients that accepted the Email

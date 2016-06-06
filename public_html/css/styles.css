@@ -102,6 +102,11 @@ font-family: 'Oxygen', sans-serif;
 font-size: 1.75rem;
 }
 
+.alert {
+	width: 80%;
+	margin-bottom: 5rem;
+}
+
 label {
 	font-family: 'Fjord One', serif;
 }
