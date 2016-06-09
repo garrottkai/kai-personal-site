@@ -172,11 +172,21 @@ form > h3 {
 	border-radius: 10px;
 }
 
+.btn-success:hover {
+	background-color: cornflowerblue;
+	border-color: black;
+}
+
 .btn-warning {
 	background-color: #E1C56B;
 	border-color: white;
 	border-radius: 10px;
 	margin-left: 1rem;
+}
+
+.btn-warning:hover {
+	background-color: #E1C56B;
+	border-color: black;
 }
 
 .navbar-fixed-bottom {
