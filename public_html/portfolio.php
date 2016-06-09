@@ -64,6 +64,8 @@
 				<hr class="topnavline">
 			</header>
 			<div>
+				<h2>Portfolio</h2>
+				<a href="https://github.com/garrottkai"><h5>Check out my work on GitHub</h5></a>
 				<div class="row">
 					<div class="col-xs-12">
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">

@@ -78,9 +78,9 @@
 			</header>
 			<div class="container">
 				<div>
+					<h2>Contact</h2>
 					<!--Begin Contact Form-->
 					<form id="contact-form" action="php/mailer.php" method="post">
-						<h3>Contact</h3>
 						<div class="form-group">
 							<div class="input-group">
 								<div class="input-group-addon">
@@ -116,9 +116,10 @@
 
 						<!-- reCAPTCHA -->
 						<div class="g-recaptcha" data-sitekey="6LdOqCETAAAAABB-pUlY6mNg14XxKD0qOukq-AfT"></div>
-
+						<div class="btns">
 						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+						</div>
 					</form>
 
 					<!--empty area for form error/success output-->

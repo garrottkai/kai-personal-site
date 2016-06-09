@@ -68,6 +68,25 @@ margin: 2rem auto 0;
 	width: inherit;
 }
 
+h2 {
+	font-family: 'Fjord One', serif;
+	text-align: center;
+}
+
+h5 {
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+}
+
+a > h5 {
+	color: black;
+	text-decoration: underline;
+}
+
+a > h5:hover {
+	color: gray;
+}
+
 .mcontent {
 font-family: 'Fjord One', serif;
 font-size: 2rem;
@@ -139,6 +158,25 @@ form > h3 {
 	width: 60%;
 	align-content: center;
 	margin-bottom: 1rem;
+}
+
+
+
+.btns {
+	margin-top: 1rem;
+}
+
+.btn-success {
+	background-color: cornflowerblue;
+	border-color: white;
+	border-radius: 10px;
+}
+
+.btn-warning {
+	background-color: #E1C56B;
+	border-color: white;
+	border-radius: 10px;
+	margin-left: 1rem;
 }
 
 .navbar-fixed-bottom {
