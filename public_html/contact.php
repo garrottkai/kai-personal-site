@@ -82,7 +82,6 @@
 					<form id="contact-form" action="php/mailer.php" method="post">
 						<h3>Contact</h3>
 						<div class="form-group">
-							<label for="name">Name <span class="text-danger">*</span></label>
 							<div class="input-group">
 								<div class="input-group-addon">
 									<i class="fa fa-user" aria-hidden="true"></i>
@@ -91,7 +90,6 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="email">Email <span class="text-danger">*</span></label>
 							<div class="input-group">
 								<div class="input-group-addon">
 									<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -100,7 +98,6 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="subject">Subject</label>
 							<div class="input-group">
 								<div class="input-group-addon">
 									<i class="fa fa-pencil" aria-hidden="true"></i>
@@ -109,7 +106,6 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="message">Message <span class="text-danger">*</span></label>
 							<div class="input-group">
 								<div class="input-group-addon">
 									<i class="fa fa-comment" aria-hidden="true"></i>
