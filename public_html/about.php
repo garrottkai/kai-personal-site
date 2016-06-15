@@ -19,9 +19,9 @@
 							<div class="nav">
 								<a href="index.php"><div class="col-xs-12 col-md-4 topnav-l" >Kai Garrott</div></a>
 								<ul class="nav">
-									<li class="col-xs-12 col-md-2 active topnav"><a href="contact.php">//  Contact</a></li>
-									<li class="col-xs-12 col-md-2 active topnav"><a href="about.php">//  About</a></li>
-									<li class="col-xs-12 col-md-2 active topnav"><a href="portfolio.php">//  Portfolio</a></li>
+									<li class="col-xs-4 col-md-2 active topnav"><a href="contact.php">//  Contact</a></li>
+									<li class="col-xs-4 col-md-2 active topnav"><a href="about.php">//  About</a></li>
+									<li class="col-xs-4 col-md-2 active topnav"><a href="portfolio.php">//  Portfolio</a></li>
 								</ul>
 							</div>
 						</div>
@@ -31,9 +31,10 @@
 			</header>
 			<div class="row mcontent">
 				<div class="col-xs-12 sec">
-					<h2>Lemme talk about myself</h2>
+					<h2>Fresh ideas to energize your business</h2>
 					<br>
-					<p>This is a paragraph about me. I haz skillz. Pls hire me, mkay?</p>
+					<p>I am a full-stack web developer based in Albuquerque, New Mexico.</p>
+					<p>My passion is in bringing clients' ideas to life.</p>
 				</div>
 			</div> <!-- /row -->
 		</div> <!-- /sfooter-content -->

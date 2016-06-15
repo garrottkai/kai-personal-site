@@ -1,7 +1,32 @@
 /* GLOBAL STYLES ------------------------------- */
 
+
+
+/* MISC STYLES --------------------------------- */
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+
 body {
-	background-image: url(../media/background.jpg);
+	background: url(../media/background.jpg) no-repeat center center fixed;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
@@ -73,6 +98,11 @@ h2 {
 	text-align: center;
 }
 
+.txt {
+	color: whitesmoke;
+	font-family: 'Oxygen', sans-serif;
+}
+
 h5 {
 	font-family: 'Oxygen', sans-serif;
 	text-align: center;
@@ -141,6 +171,7 @@ font-size: 1.75rem;
 	margin-bottom: 5rem;
 }
 
+
 label {
 	font-family: 'Fjord One', serif;
 }
@@ -149,6 +180,7 @@ form {
 	margin: 0 auto;
 	width: inherit;
 }
+
 
 form > h3 {
 	font-family: 'Fjord One', serif;
@@ -161,6 +193,17 @@ form > h3 {
 }
 
 
+@media(max-width: 992px) {
+	.form-group {
+		width: 95%;
+	}
+	#rct {
+		width: 20%;
+	}
+	form >  input {
+		width: 400px;
+	}
+}
 
 .btns {
 	margin-top: 1rem;
@@ -232,24 +275,3 @@ max-height: 6rem;
 
 
 /* SUBPAGE LAYOUT STYLES ----------------------- */
-
-/* MISC STYLES --------------------------------- */
-
-/***
-* Flexbox Sticky Footer
-* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
-***/
-
-/*corrects IE min-height bug*/
-html { display: flex;}
-body { width: 100%;}
-
-.sfooter {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-
-.sfooter-content {
-	flex: 1 0 auto;
-}

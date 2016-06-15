@@ -32,9 +32,9 @@
 							<div class="nav">
 								<a href="index.php"><div class="col-xs-12 col-md-4 topnav-l" >Kai Garrott</div></a>
 								<ul class="nav">
-									<li class="col-xs-12 col-md-2 active topnav"><a href="contact.php">//  Contact</a></li>
-									<li class="col-xs-12 col-md-2 active topnav"><a href="about.php">//  About</a></li>
-									<li class="col-xs-12 col-md-2 active topnav"><a href="portfolio.php">//  Portfolio</a></li>
+									<li class="col-xs-4 col-md-2 active topnav"><a href="contact.php">//  Contact</a></li>
+									<li class="col-xs-4 col-md-2 active topnav"><a href="about.php">//  About</a></li>
+									<li class="col-xs-4 col-md-2 active topnav"><a href="portfolio.php">//  Portfolio</a></li>
 								</ul>
 							</div>
 						</div>
@@ -44,7 +44,7 @@
 			</header>
 			<div class="container">
 				<div>
-					<h2>Contact</h2>
+					
 					<!--Begin Contact Form-->
 					<form id="contact-form" action="php/mailer.php" method="post">
 						<div class="form-group">
@@ -81,7 +81,7 @@
 						</div>
 
 						<!-- reCAPTCHA -->
-						<div class="g-recaptcha" data-sitekey="6LdOqCETAAAAABB-pUlY6mNg14XxKD0qOukq-AfT"></div>
+						<div class="g-recaptcha" id="rct" data-sitekey="6LdOqCETAAAAABB-pUlY6mNg14XxKD0qOukq-AfT"></div>
 						<div class="btns">
 						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
