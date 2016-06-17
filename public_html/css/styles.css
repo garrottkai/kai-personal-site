@@ -26,7 +26,7 @@ body { width: 100%;}
 
 
 body {
-	background: url(../media/background.jpg) no-repeat center center fixed;
+	background: url(../media/namib-optimize.jpg) no-repeat center center fixed;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
@@ -38,8 +38,13 @@ body {
  }*/
 
 footer, .sfooter-content {
-width: 70%;
+width: auto%;
 margin: 0 auto;
+}
+
+.topnav-row {
+	width: auto;
+	text-align: center;
 }
 
 .topnav-l:link, :visited {
@@ -47,32 +52,63 @@ margin: 0 auto;
 }
 
 .topnav-l:hover {
-	color: gray;
+	color: white;
 }
 
 .topnav {
-float: right;
 text-align: center;
 }
 
+.topnav:hover {
+	background-color: transparent;
+}
+
+.topnav > li {
+	margin: 5rem 1rem 0;
+}
+
 .topnav > a {
+box-sizing: border-box;
 border-radius: 2px;
 background-color: transparent;
 font-family: 'Oxygen', sans-serif;
 color: black;
-height: 5rem;
-width: 95%;
 margin: 5rem 1rem 0;
+width: 95%;
+
 
 }
 
 .topnav > a:hover {
-	color: gray;
 	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 3px;
+	text-decoration: underline;
+	-webkit-text-decoration-style: solid;
 }
 
-.active > a:hover {
-	background-color: #ffffff;
+.topnav > a:visited {
+	background-color: transparent;
+	color: black;
+}
+
+@media(max-width: 991px) {
+	.topnav {
+		text-align: center;
+	}
+	.topnav > a {
+		margin-top: 1rem;
+	}
+}
+
+@media(min-width: 992px) {
+	.topnav {
+		/*float: right;*/
+	}
+}
+
+.navbar > .navbar-inner > .nav > li > a:hover {
+	background-color: transparent;
 }
 
 .topnav-l {
@@ -90,7 +126,7 @@ margin: 2rem auto 0;
 
 .topnavline {
 	margin: 0 0 2rem 0;
-	width: inherit;
+	width: auto;
 }
 
 h2 {
@@ -246,7 +282,7 @@ max-height: 6rem;
 }
 
 .navline {
-	margin: 0 auto;
+	margin: auto;
 	width: auto;
 }
 
