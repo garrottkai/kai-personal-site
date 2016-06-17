@@ -39,13 +39,14 @@ body {
 
 footer, .sfooter-content {
 width: auto%;
-margin: 0 auto;
+margin: 0 auto 60px;
 }
 
 .topnav-row {
 	width: auto;
 	text-align: center;
 }
+
 
 .topnav-l:link, :visited {
 	color: black;
@@ -57,6 +58,7 @@ margin: 0 auto;
 
 .topnav {
 text-align: center;
+float: right;
 }
 
 .topnav:hover {
@@ -71,7 +73,9 @@ text-align: center;
 box-sizing: border-box;
 border-radius: 2px;
 background-color: transparent;
-font-family: 'Oxygen', sans-serif;
+font-family: 'Fjord One', serif;
+font-size: 2rem;
+font-weight: 400;
 color: black;
 margin: 5rem 1rem 0;
 width: 95%;
@@ -113,7 +117,7 @@ width: 95%;
 
 .topnav-l {
 font-family: 'Fjord One', serif;
-font-size: 3.5rem;
+font-size: 4rem;
 text-align: center;
 padding: 2% 5%;
 margin: 2rem auto 0;
@@ -127,6 +131,7 @@ margin: 2rem auto 0;
 .topnavline {
 	margin: 0 0 2rem 0;
 	width: auto;
+	border-color: black;
 }
 
 h2 {
@@ -135,7 +140,6 @@ h2 {
 }
 
 .txt {
-	color: whitesmoke;
 	font-family: 'Oxygen', sans-serif;
 }
 
@@ -150,7 +154,7 @@ a > h5 {
 }
 
 a > h5:hover {
-	color: gray;
+	color: white;
 }
 
 .mcontent {
@@ -165,7 +169,6 @@ text-align: center;
 
 .subcontent > .sec {
 	font-family: 'Oxygen', sans-serif;
-	color: #FFFFFF;
 	margin: 2rem 0;
 	min-height: 15rem;
 }
@@ -276,14 +279,14 @@ form > h3 {
 footer {
 background-color: transparent;
 font-family: 'Oxygen', sans-serif;
-color: #ffffff;
 margin: auto;
 max-height: 6rem;
 }
 
 .navline {
 	margin: auto;
-	width: auto;
+	width: 90%;
+	border-color: black;
 }
 
 /*.footer-l, .footer-c {

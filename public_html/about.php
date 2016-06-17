@@ -12,18 +12,19 @@
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
+			<div class="container">
 			<header>
 				<div class="row">
 					<div class="navbar">
 						<div class="navbar-inner">
-							<div class="nav">
+
 								<a href="index.php"><div class="col-xs-12 col-md-4 topnav-l" >Kai Garrott</div></a>
 								<ul class="nav">
-									<li class="col-xs-4 col-md-2 active topnav"><a href="contact.php">//  Contact</a></li>
-									<li class="col-xs-4 col-md-2 active topnav"><a href="about.php">//  About</a></li>
-									<li class="col-xs-4 col-md-2 active topnav"><a href="portfolio.php">//  Portfolio</a></li>
+									<li class="col-xs-4 col-md-2 topnav"><a href="contact.php">Contact</a></li>
+									<li class="col-xs-4 col-md-2 topnav"><a href="about.php">About</a></li>
+									<li class="col-xs-4 col-md-2 topnav"><a href="portfolio.php">Portfolio</a></li>
 								</ul>
-							</div>
+
 						</div>
 					</div>
 				</div> <!-- /row -->
@@ -45,5 +46,6 @@
 			</ul>
 			<div class="footer-i navbar-text"><a href="https://github.com/garrottkai" target="_blank"><img src="media/gh-light-64px.png"></a></div>
 		</footer>
+		</div>
 	</body>
 </html>
